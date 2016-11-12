@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7032DBC1DCDF951003A2769 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7032DBB1DCDF951003A2769 /* UsersViewController.m */; };
+		E7032DC21DCE0523003A2769 /* UserEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7032DC11DCE0523003A2769 /* UserEditViewController.m */; };
+		E7056F751DCDE61A00693A1C /* Course+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E7056F6E1DCDE61A00693A1C /* Course+CoreDataClass.m */; };
+		E7056F771DCDE61A00693A1C /* User+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E7056F721DCDE61A00693A1C /* User+CoreDataClass.m */; };
+		E75954891DD3267900251CA7 /* InstructorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75954881DD3267900251CA7 /* InstructorsViewController.m */; };
+		E76837871DD05C08008276FD /* CoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76837861DD05C08008276FD /* CoursesViewController.m */; };
+		E768378D1DD062AB008276FD /* CourseEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E768378C1DD062AB008276FD /* CourseEditViewController.m */; };
+		E76837931DD06649008276FD /* EditCourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E76837921DD06649008276FD /* EditCourseCell.m */; };
+		E76837981DD06DCF008276FD /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E76837951DD06DCF008276FD /* User+CoreDataProperties.m */; };
+		E76837991DD06DCF008276FD /* Course+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E76837971DD06DCF008276FD /* Course+CoreDataProperties.m */; };
+		E772BC161DD1BF970036F381 /* ListUsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E772BC151DD1BF970036F381 /* ListUsersViewController.m */; };
+		E79898531DCC85D100BFE49E /* EditUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E79898521DCC85D100BFE49E /* EditUserCell.m */; };
+		E7B3B16F1DCB781C0045BC63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B3B16E1DCB781C0045BC63 /* main.m */; };
+		E7B3B1721DCB781C0045BC63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B3B1711DCB781C0045BC63 /* AppDelegate.m */; };
+		E7B3B1751DCB781C0045BC63 /* _1_44_Homework_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7B3B1731DCB781C0045BC63 /* _1_44_Homework_CoreData.xcdatamodeld */; };
+		E7B3B17E1DCB781C0045BC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B3B17C1DCB781C0045BC63 /* Main.storyboard */; };
+		E7B3B1801DCB781C0045BC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B3B17F1DCB781C0045BC63 /* Assets.xcassets */; };
+		E7B3B1831DCB781C0045BC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B3B1811DCB781C0045BC63 /* LaunchScreen.storyboard */; };
+		E7B3B18E1DCB781C0045BC63 /* _1_44_Homework_CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B3B18D1DCB781C0045BC63 /* _1_44_Homework_CoreDataTests.m */; };
+		E7B3B1991DCB781C0045BC63 /* _1_44_Homework_CoreDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B3B1981DCB781C0045BC63 /* _1_44_Homework_CoreDataUITests.m */; };
+		E7B3B1A91DCB787C0045BC63 /* HomeWork.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E7B3B1A81DCB787C0045BC63 /* HomeWork.rtf */; };
+		E7B3B1B31DCB805D0045BC63 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B3B1B21DCB805D0045BC63 /* DataManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7B3B18A1DCB781C0045BC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B3B1621DCB781C0045BC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7B3B1691DCB781C0045BC63;
+			remoteInfo = "41-44 Homework CoreData";
+		};
+		E7B3B1951DCB781C0045BC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7B3B1621DCB781C0045BC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7B3B1691DCB781C0045BC63;
+			remoteInfo = "41-44 Homework CoreData";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7032DBA1DCDF951003A2769 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		E7032DBB1DCDF951003A2769 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		E7032DC01DCE0523003A2769 /* UserEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserEditViewController.h; sourceTree = "<group>"; };
+		E7032DC11DCE0523003A2769 /* UserEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserEditViewController.m; sourceTree = "<group>"; };
+		E7056F6D1DCDE61A00693A1C /* Course+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Course+CoreDataClass.h"; path = "../Course+CoreDataClass.h"; sourceTree = "<group>"; };
+		E7056F6E1DCDE61A00693A1C /* Course+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Course+CoreDataClass.m"; path = "../Course+CoreDataClass.m"; sourceTree = "<group>"; };
+		E7056F711DCDE61A00693A1C /* User+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "User+CoreDataClass.h"; path = "../User+CoreDataClass.h"; sourceTree = "<group>"; };
+		E7056F721DCDE61A00693A1C /* User+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "User+CoreDataClass.m"; path = "../User+CoreDataClass.m"; sourceTree = "<group>"; };
+		E75954871DD3267900251CA7 /* InstructorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstructorsViewController.h; sourceTree = "<group>"; };
+		E75954881DD3267900251CA7 /* InstructorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstructorsViewController.m; sourceTree = "<group>"; };
+		E76837851DD05C08008276FD /* CoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursesViewController.h; sourceTree = "<group>"; };
+		E76837861DD05C08008276FD /* CoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursesViewController.m; sourceTree = "<group>"; };
+		E768378B1DD062AB008276FD /* CourseEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseEditViewController.h; sourceTree = "<group>"; };
+		E768378C1DD062AB008276FD /* CourseEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseEditViewController.m; sourceTree = "<group>"; };
+		E76837911DD06649008276FD /* EditCourseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCourseCell.h; sourceTree = "<group>"; };
+		E76837921DD06649008276FD /* EditCourseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCourseCell.m; sourceTree = "<group>"; };
+		E76837941DD06DCF008276FD /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "User+CoreDataProperties.h"; path = "../User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E76837951DD06DCF008276FD /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "User+CoreDataProperties.m"; path = "../User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E76837961DD06DCF008276FD /* Course+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Course+CoreDataProperties.h"; path = "../Course+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E76837971DD06DCF008276FD /* Course+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Course+CoreDataProperties.m"; path = "../Course+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E772BC141DD1BF970036F381 /* ListUsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListUsersViewController.h; sourceTree = "<group>"; };
+		E772BC151DD1BF970036F381 /* ListUsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListUsersViewController.m; sourceTree = "<group>"; };
+		E79898511DCC85D100BFE49E /* EditUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditUserCell.h; sourceTree = "<group>"; };
+		E79898521DCC85D100BFE49E /* EditUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditUserCell.m; sourceTree = "<group>"; };
+		E7B3B16A1DCB781C0045BC63 /* 41-44 Homework CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "41-44 Homework CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B3B16E1DCB781C0045BC63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7B3B1701DCB781C0045BC63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7B3B1711DCB781C0045BC63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7B3B1741DCB781C0045BC63 /* _1_44_Homework_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _1_44_Homework_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		E7B3B17D1DCB781C0045BC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7B3B17F1DCB781C0045BC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7B3B1821DCB781C0045BC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7B3B1841DCB781C0045BC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B3B1891DCB781C0045BC63 /* 41-44 Homework CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "41-44 Homework CoreDataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B3B18D1DCB781C0045BC63 /* _1_44_Homework_CoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_44_Homework_CoreDataTests.m; sourceTree = "<group>"; };
+		E7B3B18F1DCB781C0045BC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B3B1941DCB781C0045BC63 /* 41-44 Homework CoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "41-44 Homework CoreDataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7B3B1981DCB781C0045BC63 /* _1_44_Homework_CoreDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_44_Homework_CoreDataUITests.m; sourceTree = "<group>"; };
+		E7B3B19A1DCB781C0045BC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B3B1A81DCB787C0045BC63 /* HomeWork.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = HomeWork.rtf; sourceTree = "<group>"; };
+		E7B3B1B11DCB805D0045BC63 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		E7B3B1B21DCB805D0045BC63 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7B3B1671DCB781C0045BC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B3B1861DCB781C0045BC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B3B1911DCB781C0045BC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7B3B1611DCB781C0045BC63 = {
+			isa = PBXGroup;
+			children = (
+				E7B3B16C1DCB781C0045BC63 /* 41-44 Homework CoreData */,
+				E7B3B18C1DCB781C0045BC63 /* 41-44 Homework CoreDataTests */,
+				E7B3B1971DCB781C0045BC63 /* 41-44 Homework CoreDataUITests */,
+				E7B3B16B1DCB781C0045BC63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7B3B16B1DCB781C0045BC63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3B16A1DCB781C0045BC63 /* 41-44 Homework CoreData.app */,
+				E7B3B1891DCB781C0045BC63 /* 41-44 Homework CoreDataTests.xctest */,
+				E7B3B1941DCB781C0045BC63 /* 41-44 Homework CoreDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7B3B16C1DCB781C0045BC63 /* 41-44 Homework CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3B1A81DCB787C0045BC63 /* HomeWork.rtf */,
+				E7B3B1A71DCB78580045BC63 /* Models */,
+				E7B3B1A61DCB784D0045BC63 /* Controllers */,
+				E7B3B1701DCB781C0045BC63 /* AppDelegate.h */,
+				E7B3B1711DCB781C0045BC63 /* AppDelegate.m */,
+				E7B3B17C1DCB781C0045BC63 /* Main.storyboard */,
+				E7B3B17F1DCB781C0045BC63 /* Assets.xcassets */,
+				E7B3B1811DCB781C0045BC63 /* LaunchScreen.storyboard */,
+				E7B3B1841DCB781C0045BC63 /* Info.plist */,
+				E7B3B1731DCB781C0045BC63 /* _1_44_Homework_CoreData.xcdatamodeld */,
+				E7B3B16D1DCB781C0045BC63 /* Supporting Files */,
+			);
+			path = "41-44 Homework CoreData";
+			sourceTree = "<group>";
+		};
+		E7B3B16D1DCB781C0045BC63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3B16E1DCB781C0045BC63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7B3B18C1DCB781C0045BC63 /* 41-44 Homework CoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3B18D1DCB781C0045BC63 /* _1_44_Homework_CoreDataTests.m */,
+				E7B3B18F1DCB781C0045BC63 /* Info.plist */,
+			);
+			path = "41-44 Homework CoreDataTests";
+			sourceTree = "<group>";
+		};
+		E7B3B1971DCB781C0045BC63 /* 41-44 Homework CoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3B1981DCB781C0045BC63 /* _1_44_Homework_CoreDataUITests.m */,
+				E7B3B19A1DCB781C0045BC63 /* Info.plist */,
+			);
+			path = "41-44 Homework CoreDataUITests";
+			sourceTree = "<group>";
+		};
+		E7B3B1A61DCB784D0045BC63 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E7032DBA1DCDF951003A2769 /* UsersViewController.h */,
+				E7032DBB1DCDF951003A2769 /* UsersViewController.m */,
+				E75954871DD3267900251CA7 /* InstructorsViewController.h */,
+				E75954881DD3267900251CA7 /* InstructorsViewController.m */,
+				E7032DC01DCE0523003A2769 /* UserEditViewController.h */,
+				E7032DC11DCE0523003A2769 /* UserEditViewController.m */,
+				E76837851DD05C08008276FD /* CoursesViewController.h */,
+				E76837861DD05C08008276FD /* CoursesViewController.m */,
+				E768378B1DD062AB008276FD /* CourseEditViewController.h */,
+				E768378C1DD062AB008276FD /* CourseEditViewController.m */,
+				E772BC141DD1BF970036F381 /* ListUsersViewController.h */,
+				E772BC151DD1BF970036F381 /* ListUsersViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E7B3B1A71DCB78580045BC63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7B3B1B01DCB7D1F0045BC63 /* CoreDataModels */,
+				E7B3B1B11DCB805D0045BC63 /* DataManager.h */,
+				E7B3B1B21DCB805D0045BC63 /* DataManager.m */,
+				E76837911DD06649008276FD /* EditCourseCell.h */,
+				E76837921DD06649008276FD /* EditCourseCell.m */,
+				E79898511DCC85D100BFE49E /* EditUserCell.h */,
+				E79898521DCC85D100BFE49E /* EditUserCell.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E7B3B1B01DCB7D1F0045BC63 /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				E7056F6D1DCDE61A00693A1C /* Course+CoreDataClass.h */,
+				E7056F6E1DCDE61A00693A1C /* Course+CoreDataClass.m */,
+				E76837961DD06DCF008276FD /* Course+CoreDataProperties.h */,
+				E76837971DD06DCF008276FD /* Course+CoreDataProperties.m */,
+				E7056F711DCDE61A00693A1C /* User+CoreDataClass.h */,
+				E7056F721DCDE61A00693A1C /* User+CoreDataClass.m */,
+				E76837941DD06DCF008276FD /* User+CoreDataProperties.h */,
+				E76837951DD06DCF008276FD /* User+CoreDataProperties.m */,
+			);
+			name = CoreDataModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7B3B1691DCB781C0045BC63 /* 41-44 Homework CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B3B19D1DCB781C0045BC63 /* Build configuration list for PBXNativeTarget "41-44 Homework CoreData" */;
+			buildPhases = (
+				E7B3B1661DCB781C0045BC63 /* Sources */,
+				E7B3B1671DCB781C0045BC63 /* Frameworks */,
+				E7B3B1681DCB781C0045BC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "41-44 Homework CoreData";
+			productName = "41-44 Homework CoreData";
+			productReference = E7B3B16A1DCB781C0045BC63 /* 41-44 Homework CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7B3B1881DCB781C0045BC63 /* 41-44 Homework CoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B3B1A01DCB781C0045BC63 /* Build configuration list for PBXNativeTarget "41-44 Homework CoreDataTests" */;
+			buildPhases = (
+				E7B3B1851DCB781C0045BC63 /* Sources */,
+				E7B3B1861DCB781C0045BC63 /* Frameworks */,
+				E7B3B1871DCB781C0045BC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7B3B18B1DCB781C0045BC63 /* PBXTargetDependency */,
+			);
+			name = "41-44 Homework CoreDataTests";
+			productName = "41-44 Homework CoreDataTests";
+			productReference = E7B3B1891DCB781C0045BC63 /* 41-44 Homework CoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7B3B1931DCB781C0045BC63 /* 41-44 Homework CoreDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B3B1A31DCB781C0045BC63 /* Build configuration list for PBXNativeTarget "41-44 Homework CoreDataUITests" */;
+			buildPhases = (
+				E7B3B1901DCB781C0045BC63 /* Sources */,
+				E7B3B1911DCB781C0045BC63 /* Frameworks */,
+				E7B3B1921DCB781C0045BC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7B3B1961DCB781C0045BC63 /* PBXTargetDependency */,
+			);
+			name = "41-44 Homework CoreDataUITests";
+			productName = "41-44 Homework CoreDataUITests";
+			productReference = E7B3B1941DCB781C0045BC63 /* 41-44 Homework CoreDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7B3B1621DCB781C0045BC63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Vladimir Gordienko";
+				TargetAttributes = {
+					E7B3B1691DCB781C0045BC63 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 62EURDPN8F;
+						ProvisioningStyle = Automatic;
+					};
+					E7B3B1881DCB781C0045BC63 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 62EURDPN8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7B3B1691DCB781C0045BC63;
+					};
+					E7B3B1931DCB781C0045BC63 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 62EURDPN8F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7B3B1691DCB781C0045BC63;
+					};
+				};
+			};
+			buildConfigurationList = E7B3B1651DCB781C0045BC63 /* Build configuration list for PBXProject "41-44 Homework CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7B3B1611DCB781C0045BC63;
+			productRefGroup = E7B3B16B1DCB781C0045BC63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7B3B1691DCB781C0045BC63 /* 41-44 Homework CoreData */,
+				E7B3B1881DCB781C0045BC63 /* 41-44 Homework CoreDataTests */,
+				E7B3B1931DCB781C0045BC63 /* 41-44 Homework CoreDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7B3B1681DCB781C0045BC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B3B1831DCB781C0045BC63 /* LaunchScreen.storyboard in Resources */,
+				E7B3B1801DCB781C0045BC63 /* Assets.xcassets in Resources */,
+				E7B3B1A91DCB787C0045BC63 /* HomeWork.rtf in Resources */,
+				E7B3B17E1DCB781C0045BC63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B3B1871DCB781C0045BC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B3B1921DCB781C0045BC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7B3B1661DCB781C0045BC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76837931DD06649008276FD /* EditCourseCell.m in Sources */,
+				E772BC161DD1BF970036F381 /* ListUsersViewController.m in Sources */,
+				E79898531DCC85D100BFE49E /* EditUserCell.m in Sources */,
+				E76837871DD05C08008276FD /* CoursesViewController.m in Sources */,
+				E7032DBC1DCDF951003A2769 /* UsersViewController.m in Sources */,
+				E75954891DD3267900251CA7 /* InstructorsViewController.m in Sources */,
+				E7B3B1B31DCB805D0045BC63 /* DataManager.m in Sources */,
+				E76837981DD06DCF008276FD /* User+CoreDataProperties.m in Sources */,
+				E7B3B1721DCB781C0045BC63 /* AppDelegate.m in Sources */,
+				E7056F771DCDE61A00693A1C /* User+CoreDataClass.m in Sources */,
+				E7B3B1751DCB781C0045BC63 /* _1_44_Homework_CoreData.xcdatamodeld in Sources */,
+				E7032DC21DCE0523003A2769 /* UserEditViewController.m in Sources */,
+				E768378D1DD062AB008276FD /* CourseEditViewController.m in Sources */,
+				E7056F751DCDE61A00693A1C /* Course+CoreDataClass.m in Sources */,
+				E76837991DD06DCF008276FD /* Course+CoreDataProperties.m in Sources */,
+				E7B3B16F1DCB781C0045BC63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B3B1851DCB781C0045BC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B3B18E1DCB781C0045BC63 /* _1_44_Homework_CoreDataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B3B1901DCB781C0045BC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7B3B1991DCB781C0045BC63 /* _1_44_Homework_CoreDataUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7B3B18B1DCB781C0045BC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7B3B1691DCB781C0045BC63 /* 41-44 Homework CoreData */;
+			targetProxy = E7B3B18A1DCB781C0045BC63 /* PBXContainerItemProxy */;
+		};
+		E7B3B1961DCB781C0045BC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7B3B1691DCB781C0045BC63 /* 41-44 Homework CoreData */;
+			targetProxy = E7B3B1951DCB781C0045BC63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7B3B17C1DCB781C0045BC63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B3B17D1DCB781C0045BC63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7B3B1811DCB781C0045BC63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7B3B1821DCB781C0045BC63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7B3B19B1DCB781C0045BC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7B3B19C1DCB781C0045BC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7B3B19E1DCB781C0045BC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62EURDPN8F;
+				INFOPLIST_FILE = "41-44 Homework CoreData/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimirgordienko.-1-44-Homework-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7B3B19F1DCB781C0045BC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62EURDPN8F;
+				INFOPLIST_FILE = "41-44 Homework CoreData/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimirgordienko.-1-44-Homework-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7B3B1A11DCB781C0045BC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 62EURDPN8F;
+				INFOPLIST_FILE = "41-44 Homework CoreDataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimirgordienko.-1-44-Homework-CoreDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/41-44 Homework CoreData.app/41-44 Homework CoreData";
+			};
+			name = Debug;
+		};
+		E7B3B1A21DCB781C0045BC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 62EURDPN8F;
+				INFOPLIST_FILE = "41-44 Homework CoreDataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimirgordienko.-1-44-Homework-CoreDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/41-44 Homework CoreData.app/41-44 Homework CoreData";
+			};
+			name = Release;
+		};
+		E7B3B1A41DCB781C0045BC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 62EURDPN8F;
+				INFOPLIST_FILE = "41-44 Homework CoreDataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimirgordienko.-1-44-Homework-CoreDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "41-44 Homework CoreData";
+			};
+			name = Debug;
+		};
+		E7B3B1A51DCB781C0045BC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 62EURDPN8F;
+				INFOPLIST_FILE = "41-44 Homework CoreDataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimirgordienko.-1-44-Homework-CoreDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "41-44 Homework CoreData";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7B3B1651DCB781C0045BC63 /* Build configuration list for PBXProject "41-44 Homework CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B3B19B1DCB781C0045BC63 /* Debug */,
+				E7B3B19C1DCB781C0045BC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B3B19D1DCB781C0045BC63 /* Build configuration list for PBXNativeTarget "41-44 Homework CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B3B19E1DCB781C0045BC63 /* Debug */,
+				E7B3B19F1DCB781C0045BC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B3B1A01DCB781C0045BC63 /* Build configuration list for PBXNativeTarget "41-44 Homework CoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B3B1A11DCB781C0045BC63 /* Debug */,
+				E7B3B1A21DCB781C0045BC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B3B1A31DCB781C0045BC63 /* Build configuration list for PBXNativeTarget "41-44 Homework CoreDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B3B1A41DCB781C0045BC63 /* Debug */,
+				E7B3B1A51DCB781C0045BC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E7B3B1731DCB781C0045BC63 /* _1_44_Homework_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E7B3B1741DCB781C0045BC63 /* _1_44_Homework_CoreData.xcdatamodel */,
+			);
+			currentVersion = E7B3B1741DCB781C0045BC63 /* _1_44_Homework_CoreData.xcdatamodel */;
+			path = _1_44_Homework_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E7B3B1621DCB781C0045BC63 /* Project object */;
+}
